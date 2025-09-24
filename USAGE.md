@@ -77,24 +77,24 @@ MAT201,Linear Algebra,3,Dr. Jones,FALL,MATHEMATICS
 Here’s a step-by-step walkthrough of how you might use the application in a typical session.
 
 ### Step 1: Import Initial Data
-Start by populating the system. Navigate to File Operations  in the main menu and select the Import Data option. This will load all the students and courses from the CSV files.
+Start by populating the system. Navigate to **File Operations**  in the main menu and select the **Import Data** option. This will load all the students and courses from the CSV files.
 
 ### Step 2: Check If Everything Loaded
-Head back to the main menu. Go into Manage Students and choose List All Students. Do the same for courses under Manage Courses. You should see all the records from your files.
+Head back to the main menu. Go into **Manage Students** and choose **List All Students**. Do the same for courses under **Manage Courses**. You should see all the records from your files.
 
 ### Step 3: Enroll a Student
-Now for the fun part. Go to the Manage Enrollment & Grades menu. Select Enroll Student, then provide the ID of a student (e.g., `S001`) and the code of a course (e.g., `CSE1001`).
+Now for the fun part. Go to the **Manage Enrollment & Grades** menu. Select **Enroll Student**, then provide the ID of a student (e.g., `S001`) and the code of a course (e.g., `CSE1001`).
 
 ### Step 4: Record a Grade
-After a student has been enrolled, you can assign them a grade. In the same menu, choose Record Grades. Enter the student's ID, the course code, and the marks they achieved. The system will automatically calculate the corresponding letter grade and grade points.
+After a student has been enrolled, you can assign them a grade. In the same menu, choose **Record Grades**. Enter the student's ID, the course code, and the marks they achieved. The system will automatically calculate the corresponding letter grade and grade points.
 
 ### Step 5: Generate a Transcript
-To see a summary of a student's academic progress, go to the Manage Students menu and select the option to Print Student Transcript. Enter the student's ID, and a neatly formatted transcript will be displayed on the console.
+To see a summary of a student's academic progress, go to the **Manage Students** menu and select the option to **Print Student Transcript**. Enter the student's ID, and a neatly formatted transcript will be displayed on the console.
 
 ### Step 6: Save Your Work
-Before you finish, it's a good idea to save the current state of the system. Go to File Operations and select Export Data. This will write the latest student, course, and enrollment data to new files in the `/data` directory.
+Before you finish, it's a good idea to save the current state of the system. Go to **File Operations** and select **Export Data**. This will write the latest student, course, and enrollment data to new files in the `/data` directory.
 
 ### Step 7: Create a Secure Backup
-Finally, let's create a timestamped backup. From the main menu, select Backup Data. The application will copy your exported data into a new folder named with the current date and time, ensuring your records are safely archived.
+Finally, let's create a timestamped backup. From the main menu, select **Backup Data**. The application will copy your exported data into a new folder named with the current date and time, ensuring your records are safely archived.
 
 And that's it! You've successfully managed records, graded a student, and backed up your data. Feel free to explore the other options and features.
